@@ -219,7 +219,7 @@ export default function Home() {
             <div className="nav">
               <motion.div
                 initial={{ y: "-20", opacity: 0 }}
-                animate={{ y: "20px", opacity: 1 }}
+                animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
                 whileHover={{ scale: 1.05 }}
                 className="images-container"
