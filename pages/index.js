@@ -241,70 +241,37 @@ return(
 
 <div className="home-des desktop">
   
+  <div className="home-hero">
+
+   <div className="main-login">
+
+   <div className="header">
+   <img src="/images/namelogo.png"/>
+
+
+
+   </div>
+
   
 
-<div className="main-content">
-<div className="content">
-
-<div className="nav">
-<img className="logo-desktop" src="/images/namelogo.png" alt="WOOTailor"/>
-
-<div className="usermenu">
-
-<div onClick={()=>{name.length !==0?window.location.href="/profile":window.location.href="/login"}} className={active===true?'btns login active':'btns login'}>{name.length !==0?name:'Login'}</div>
-{name.length !==0?<></>:<div onClick={()=>{window.location.href="/signup"}}className={active===false?'btns login active':'btns login'}>Signup</div>}
-{/* <Drawer anchor='right' open={true} onClose={}>
-         {list(anchor)}
-</Drawer> */}
-</div>
 
 
+   </div>
 
-<div className="text-contents">
-<div >
-<h2>Finding Tailors?</h2>
-<p>Order dress from favourite tailor near you. </p>
-</div>
-<div  
-className="searchtailor" onClick={()=>setOpen(true)}>
-<input onChange={()=>setOpen(true)} type="text" placeholder="Enter your delivery location "/>
-{/* <div className="locate-btn">
-<img className="desktop-gps" src='/images/gps.svg'/>
-<div className='title-locate'>Locate Me</div>
-</div> */}
+   <div className="side-image">
+  
+    <img src="/pichome.png"/>
 
 
-<div className="submit-btn">
-<div className="find-tailor">SEARCH ME</div>
-</div>
+   </div>
 
-</div>
-
-
-<div  className="cities">
-POPULAR CITIES IN INDIA
-</div>
-<div className="notation">
-We are starting with Noida Tailors and expanding our WOOTailor in all over India. If you want to become a partner please follow this link <a style={{color:"orangered"}} href="https://z164ncjhk6d.typeform.com/to/WIHMXjw1">Become a Partner.</a> 
-</div>
-
-
-
-</div>
-
-
-
-
-
-
-
-</div>
-
-</div>
-<div className="img">
-
-</div>
+   
   </div>
+
+
+
+  
+
 
 
   </div>

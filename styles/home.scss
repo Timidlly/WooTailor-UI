@@ -1,0 +1,35 @@
+.home-hero{
+    background-color:#fff;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+
+    .main-login{
+        // background-color: red;
+
+        .header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 32px;
+            margin-left: 23px;
+
+            img{
+                height: 33px;
+            }
+        }
+
+
+    }
+    .side-image{
+        // background-color: black;
+        overflow: hidden;
+        img{
+            height: auto;
+            width: 623px;
+            // margin-left: 23%;
+        }
+    }
+}
