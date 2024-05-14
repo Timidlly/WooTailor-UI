@@ -7,7 +7,7 @@ const app = next({ dev });
 const handle = app.getRequestHandler();
 const apiPaths = {
   "/api": {
-    target: "http://localhost:3050",
+    target: "http://localhost:3060",
     pathRewrite: {
       "^/api": "/api",
     },
